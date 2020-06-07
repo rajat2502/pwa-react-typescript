@@ -6,7 +6,7 @@ const Home = lazy(() => import("./Home"));
 
 const App: React.FC = () => (
   <Router>
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<h1>Loading...</h1>}>
       <nav>
         <ul>
           <li>
